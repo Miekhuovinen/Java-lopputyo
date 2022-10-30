@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kurssit</title>
+</head>
+<body>
+<form method="post" action="/addstudent">
+    <h3>Lisää oppilas antamalla oppilaan nimi.</h3>
+    <input type="text" name="student" id="student">
+    <button type="submit">OK</button>
+</form>
+<br>
+<form method="post" action="/addcourse">
+    <h3>Lisää kurssi syöttämällä kurssin tiedot</h3>
+    <p>Kurssin nimi:<input type="text" name="courseName" id="courseName"></p>
+    <p>Opettaja:<input type="text" name="teacher" id="teacher"></p>
+    <p>Luokkahuone:<input type="text" name="classRoom" id="classRoom"></p>
+    <button type="submit">OK</button>
+</form>
+</body>
+</html>
