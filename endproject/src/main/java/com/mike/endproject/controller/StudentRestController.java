@@ -97,7 +97,7 @@ public class StudentRestController {
         sService.addToCourse(courseName,name);
         return "";
     }
-
+    //Deletet saattavat antaa erroria Thunder Clientissä, mutta itsellä ainakin toimivat
     @DeleteMapping("deletestudent")
     public String deleteStudent(@RequestParam long id){
         sService.deleteStudent(id);
